@@ -1,0 +1,13 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.form {
+}
+.form_img {
+}
+
+.btn {
+  display: flex;
+  gap: 32px;
+}
