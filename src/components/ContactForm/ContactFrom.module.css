@@ -1,13 +1,41 @@
 .container {
-  max-width: 1000px;
+  display: flex;
   margin: 0 auto;
-}
-.form {
-}
-.form_img {
+
+  margin-top: 40px;
+  align-items: end;
 }
 
 .btn {
   display: flex;
   gap: 32px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.from_controler {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.from_controler input {
+  height: 40px;
+  padding: 0 8px;
+}
+.from_controler label {
+  font-size: 14px;
+  position: absolute;
+  top: -8px;
+  left: 10px;
+  background: white;
+  padding: 0 10px;
 }
